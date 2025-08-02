@@ -94,36 +94,6 @@ npm run type-check
 npx expo build
 ```
 
-## 📁 Project Structure
-
-```
-expense-tracker/
-├── app/                          # Expo Router pages
-│   ├── (tabs)/                   # Tab navigation group
-│   │   ├── _layout.tsx          # Tab navigator layout
-│   │   ├── index.tsx            # Dashboard screen
-│   │   ├── add.tsx              # Add expense screen
-│   │   ├── expenses.tsx         # Expenses list screen
-│   │   └── stats.tsx            # Statistics screen
-│   └── _layout.tsx              # Root layout
-├── components/                   # Reusable UI components
-│   └── ui/
-│       ├── CategorySelector.tsx # Category selection component
-│       ├── ExpenseCard.tsx      # Individual expense display
-│       └── StatsCard.tsx        # Statistics card component
-├── constants/                    # App constants
-│   └── categories.ts            # Default expense categories
-├── contexts/                     # React Context providers
-│   └── ExpenseContext.tsx       # Global expense state management
-├── hooks/                        # Custom React hooks
-│   └── useExpense.tsx           # Expense context hook
-├── services/                     # Data layer services
-│   └── expenseService.ts        # AsyncStorage operations
-├── types/                        # TypeScript type definitions
-│   └── expense.ts               # Expense-related interfaces
-└── README.md                     # Project documentation
-```
-
 ## 🎯 Usage
 
 ### Adding an Expense
@@ -176,33 +146,6 @@ The app includes 8 pre-defined categories:
 - Visual progress indicators
 - Sorted by spending amount
 
-## 🔮 Future Enhancements
-
-- [ ] **Budget Management** - Set monthly budgets per category
-- [ ] **Data Export** - Export expenses to CSV/PDF
-- [ ] **Expense Search** - Search and filter functionality
-- [ ] **Recurring Expenses** - Add recurring expense templates
-- [ ] **Multi-Currency** - Support for different currencies
-- [ ] **Cloud Sync** - Backend integration for data synchronization
-- [ ] **Expense Photos** - Attach receipt images to expenses
-- [ ] **Advanced Analytics** - Weekly/yearly reports and trends
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📋 Development Notes
-
-- **Data Persistence**: Uses AsyncStorage for local data storage
-- **State Management**: Context API for global state management
-- **Cross-Platform**: Tested on Android, iOS, and Web platforms
-- **Type Safety**: Full TypeScript implementation with strict typing
-- **Performance**: Optimized for smooth user experience
-
 ## 📱 Screenshots
 
 <img width="1906" height="912" alt="Screenshot 2025-08-03 005520" src="https://github.com/user-attachments/assets/7a364be2-06aa-4a72-9aad-696178c4c8a5" />
@@ -210,14 +153,3 @@ The app includes 8 pre-defined categories:
 <img width="1918" height="904" alt="Screenshot 2025-08-03 005454" src="https://github.com/user-attachments/assets/7466a3a6-4657-4b13-8a72-0fa7046a5a49" />
 <img width="1916" height="908" alt="Screenshot 2025-08-03 005432" src="https://github.com/user-attachments/assets/4a529948-e751-4144-879f-23a7d2d6c5b6" />
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 👨‍💻 Author
-
-Created as a learning project to demonstrate React Native, TypeScript, and mobile app development skills.
-
----
-
-**⭐ Star this repository if you found it helpful!**
