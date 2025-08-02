@@ -205,7 +205,10 @@ The app includes 8 pre-defined categories:
 
 ## 📱 Screenshots
 
-> *Add screenshots of your app here to showcase the UI*
+<img width="1906" height="912" alt="Screenshot 2025-08-03 005520" src="https://github.com/user-attachments/assets/7a364be2-06aa-4a72-9aad-696178c4c8a5" />
+<img width="1900" height="898" alt="Screenshot 2025-08-03 005510" src="https://github.com/user-attachments/assets/5d9562c3-09b8-497f-93fb-cc2d49f24cd8" />
+<img width="1918" height="904" alt="Screenshot 2025-08-03 005454" src="https://github.com/user-attachments/assets/7466a3a6-4657-4b13-8a72-0fa7046a5a49" />
+<img width="1916" height="908" alt="Screenshot 2025-08-03 005432" src="https://github.com/user-attachments/assets/4a529948-e751-4144-879f-23a7d2d6c5b6" />
 
 ## 📄 License
 
